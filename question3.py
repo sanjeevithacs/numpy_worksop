@@ -5,7 +5,5 @@ def fact(n):
   else:
     return n*fact(n-1)
   n = int(input())
-  if(fact(n)):
-    print(f"{n} is Palindrome")
-  else:
-    print(f"{n} is not a Palindrome")
+  result = fact(n)
+ print(result)
